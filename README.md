@@ -68,7 +68,13 @@ Now that you have everything installed, it's time to clone the github repository
 
 	git clone https://github.com/mawebster9/MachineLearningMadeEasy
 
-and hit enter. This will pull a copy of the repository onto your machine. It is recommended to copy the repo into your python folder.
+and hit enter. This will pull a copy of the repository onto your machine. __It is recommended to copy the repo into your python folder.__
+
+For additional git bash help, visit https://www.atlassian.com/git/tutorials/git-bash for help with navigating through git bash.
+
+For aditional git help, visit http://guides.beanstalkapp.com/version-control/common-git-commands.html for help with git itself.
+
+Git mimics Linux file structure definitions, so for Windows machines you will need to replace all of the "\" to "/"" (example: "C:\Users\Programs\git_repo" -> "C:/Users/Programs/git_repo") in the file path when using git bash. This is a problem with Windows machines since the directory paths have different file structures. You also need to include all file folders and files in double quotes ("Example File Name") if they are not one single word and are broken up by spaces.
 
 
 
@@ -79,7 +85,7 @@ Now that you have everything installed, it's time to run the Jupyter Notebooks a
 
 In the powershell command prompt, type 
 
-	jupyter notebooks
+	jupyter notebook
 
 You will see output that resembles this:
 
@@ -93,5 +99,7 @@ This command may automatically open your browser - if it does not, open up a bro
 Now you have an instance of Jupyter Notebooks on your computer!
 
 To start a new Notebook, select the "New" option at the top and under the "Notebook:" option, select "Python 3". This will open up a new notebook for you. If you wish to access already existing Notebooks, simply click on the notebook you wish to open.
+
+_If you did not clone the repo into your Python folder, you will need to locate the files you want, copy them to the python folder, follow directions for getting Jupyter Notebooks up and running, do your work, save, then copy all files you changed back to the repo folder, then push changes to git if you wish._
 
 
